@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+
+*{margin:0;padding:0;}
+
+body{font-family: 'Oswald', sans-serif;
+font-size: 16px;}
+h1,h2,h3,h4,h5,h6{font-family: 'Work Sans', sans-serif;}
+
+section{padding: 50px 0px;}
+
+.topbarMain{
+    background: #ddd;
+}
+.container{
+    width:850px;
+    margin:auto;
+    
+}
+.topbarWrapper{
+    overflow:hidden;
+    
+}
+.phone{
+    width:245px;
+    float:left;
+  
+    
+}
+.phone i{
+    padding-left: 10px;
+    padding-right:10px;
+    border-left:1px solid black;
+    color:#FF6C00;
+    padding:15px;
+}
+.email i{
+    padding-left:10px;
+    padding-right:10px;
+    color:#FF6C00;
+    padding:15px;
+}
+
+.email{
+    width:450px;
+    float:left;
+    border-left:1px solid black;
+    }
+.social{
+    width:150px;
+    float:left;
+    display:block;
+    transition:.3s;
+    
+}
+.social i{
+    padding:15px;
+}
+.social i:first-child{
+    border-left: 1px solid black;
+}
+.social a i{
+   
+    border-right:1px solid black;
+    color:rgb(28, 27, 27);
+}
+.social a i:hover{
+    color:#FF6C00;
+}
+.mainmenuwrapper{
+    overflow:hidden;
+    width:100%;
+    
+}
+.logo{
+    width:150px;
+    float:left;
+   
+}
+.menu{
+    width:690px;
+    float:left;
+}
+ul.mainMenuItems{
+    list-style: none;
+    float:right;
+    margin-top:10px;
+}
+ul.mainMenuItems li{
+    float:left;
+}
+ul.mainMenuItems li a{
+    text-decoration: none;
+    padding: 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+
+}
+ul.mainMenuItems li:hover{
+    color:#FF6C00;
+}
+.homeSlider{
+    background-image: url(slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sliderHead{
+    width: 330px;
+    color:white;
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-spacing: 20px;
+    padding-top: 0px;
+    text-transform: uppercase;
+    
+}
+
+.sliderpara {
+    width: 318px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+.sliderworkbutton {
+    width: 132px;
+    padding: 11px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #ff5200;
+   
+}
+.sliderworkbutton a{
+    text-decoration: none;
+}
+.navBar{
+    margin: auto;
+    width: 45px;
+   place-items: center;
+}
+
+.navBar span{
+    width:10px;
+    height:10px;
+    border-radius: 100px;
+    cursor: pointer;
+    border:1px solid #ff5200;
+    display:block;
+    background: transparent;
+    border-color: #ddd;
+   float:left;
+   margin:5px;
+}
+.navBar span:last-child{
+    background: #ff5200;
+    border-color: #ff5200;
+}
+.sboxWrapper{
+    width:200px;
+    background: #ddd;
+    float:left;
+    margin:6px;
+    
+}
+.service{
+    overflow: hidden;
+}
+.teamWork{
+    overflow: hidden;
+}
+.sboxWrapper:hover{
+    color:white;
+    background: #FF6C00;
+}
+.sIcon{
+    text-align: center;
+    margin:auto;
+    color:#ff5200;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.sHeading{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sPara{
+   
+    text-align: center;
+}
+.sLink{
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sLink a{
+    text-decoration: none;
+    padding-bottom: 20px;
+    color:#FF6C00;
+    padding-right: 10px;
+}
+
+
+
+.image img{
+    width:400px;
+    float:left;
+}
+.contpara{
+    width:400px;
+    float:right;
+}
+.contpara h1{
+    margin:10px;
+    font-size: 30px;
+}
+.contpara p{
+    margin-bottom: 20px;
+}
+.ulleft{
+    width:200px;
+    float: left;
+    
+}
+.ulright{
+    width:200px;
+    float: left;
+   
+}
+.tcontent ul{
+    margin-bottom: 20px;
+    list-style: none;
+    line-height: 40px;
+    font-weight: 60px;
+}
+
+
+.tcontent button{
+    padding: 15px 30px;
+    background: #ff5200;
+    color:white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.whyChoose{
+    background: url(why-choose-us1.jpg);
+    height:250px;
+    color:white;
+    overflow: hidden;
+}
+
+
+.singleChooseBox{
+    width:200px;
+    text-align: center;
+    margin-top: 20px;
+}
+.singleChooseBox i{
+    font-size:70px;
+    margin-bottom: 15px;
+}
+.singleChooseBox h1{
+    font-size:50px;
+    margin-bottom: 15px;
+}
+.singleChooseBox p{
+    font-size:20px;
+    text-transform:uppercase;
+    margin-bottom: 40px;
+}
+.singleChooseBox{
+    float:left;
+}
+
+.top h1,p{
+    width:500px;
+    text-align: center;
+    margin:auto;
+    
+}
+.top h1{
+    font-size: 35px;
+}
+
+.top p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.conTbox1{
+    width:190px;
+    height:200px;
+    float:left;
+    margin:10px;
+    
+}
+.pic1{
+    width:100%;
+    margin-bottom: 20px;
+}
+.conTbox1 h2{
+    font-size: 15px;
+    
+    margin-bottom: 10px;
+}
+.conTbox1 span{
+    font-size: 20;
+}
+
+.ourPlan{
+    overflow: hidden;
+    float: left;
+    width:900px;
+    padding: 20px;
+    
+}
+.head h1{
+    width:400px;
+    margin:auto;
+    font-size: 30px;
+    text-decoration: underline;
+    
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.head p{
+    width:600px;
+    martin:auto;
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+}
+.b1{
+    width:200px;
+    float: left;
+    padding-left: 65px;
+    margin: auto;
+    border: 2px solid rgb(85, 79, 79);
+    margin:7px;
+     
+    
+}
+.start{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.b1 h1{
+    font-size: 40px;
+    text-transform: uppercase;  
+    margin-bottom: 20px;
+}
+.b1 ul{
+    line-height: 35px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.but2 a button{
+    padding:15px 30px;
+    background-color: #ff5200;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.but2 a button:hover{
+    background-color: black;
+    color: white;
+}
